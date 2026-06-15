@@ -1,0 +1,21 @@
+{
+  "name": "VeloxSpace",
+  "short_name": "VeloxSpace",
+  "description": "The marketing command center for social & ads",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0a0b10",
+  "theme_color": "#6366f1",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any maskable" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" }
+  ],
+  "screenshots": [],
+  "categories": ["business", "productivity", "utilities"],
+  "shortcuts": [
+    { "name": "Overview",  "url": "/", "description": "Open dashboard" },
+    { "name": "Calendar",  "url": "/?page=calendar",  "description": "Content calendar" },
+    { "name": "Composer",  "url": "/?page=composer",  "description": "Create a post" }
+  ]
+}
